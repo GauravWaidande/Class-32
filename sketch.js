@@ -70,17 +70,17 @@ function setup() {
   button.mouseClicked(drop);
 
   button2=createImg("cut_btn.png");
-  button2.position(330,35);
+  button2.position(280,35);
   button2.size(50,50);
   button2.mouseClicked(drop2);
 
   button3=createImg("cut_btn.png");
-  button3.position(360,200);
+  button3.position(310,200);
   button3.size(50,50);
   button3.mouseClicked(drop3);
 
   mute_btn = createImg('mute.png');
-  mute_btn.position(450,20);
+  mute_btn.position(400,20);
   mute_btn.size(50,50);
   mute_btn.mouseClicked(mute);
   
@@ -93,7 +93,7 @@ function setup() {
   blink.frameDelay = 20;
   eat.frameDelay = 20;
 
-  bunny = createSprite(420,height-80,100,100);
+  bunny = createSprite(370,height-80,100,100);
   bunny.scale = 0.2;
 
   bunny.addAnimation('blinking',blink);
